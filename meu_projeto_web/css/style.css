@@ -1,5 +1,74 @@
-body {
-    background-image: url(meu_projeto_web/assets/image/imagem.webp);
-    background-attachment: fixed;
-    background-size: cover;
+* {
+    margin: 0;
+}
+
+body{
+    background-image: url(/WEB/meu_projeto_web/assets/image/hyrule_background.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    color: rgb(111, 124, 92);
+}
+header{
+    background-color: aliceblue;
+    padding: 13px;
+    
+}
+
+nav{ 
+    background-color: aliceblue;
+    
+}
+
+ul{
+    font-weight: bold;
+    gap: 1rem;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(111, 124, 92);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin: 23px;
+}
+
+.foto{
+    margin: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 232px;
+    background-color: aliceblue;
+    
+}
+
+section{
+    margin: 12px;
+    background-color: aliceblue;
+}
+
+h2{
+    text-align: center;
+
+}
+
+p{
+    text-align: center;
 }
